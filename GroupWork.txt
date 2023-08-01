@@ -1,0 +1,53 @@
+
+                                        Group 2 members and what we doing
+
+
+* Nuraan- Explaining what read & write does
+
+    Node.js offers a wide range of built-in functionalities to perform read and write operations. The readFile() method of the fs package can be used to read files without file descriptors. The method reads the file and stores it in a buffer. The contents of the buffer can then be printed out as output.
+    The write() method is a built-in application programming interface (API) of the fs module in Node.js. It is used to specify the position in a file to begin writing at, as well as which part of the buffer to write out to the file. The fs.write() method can also be used without a buffer by simply using a string variable.
+
+
+* Masood- Explaining why we use promises to read and write files
+
+    Has a promise-based syntax that can be used in an async/await block to provide clearer syntax while avoiding callback hell. This method operates in the same manner as the standard writeFile method, except that it is used in an asynchronous function and does not require a callback to process the response.
+
+
+* Mihlali- helped with gathering information for everyone
+
+    fs module: It's used to read and write files.
+
+    readFile: It takes the file path and an optional encoding parameter as input and returns the file contents in the form of a buffer or a string, depending on the specified encoding.
+
+    writeFile: takes the file path, the data to be written, and an optional encoding parameter as input and returns an error (if any) once the operation is complete.
+
+    Promise: It represents a value that may not be available yet but will be resolved (fulfilled) or rejected in the future. The Promise constructor is used to create new promise instances.
+
+    resolve: resolve is a function used to fulfill a promise, meaning the operation was successful, and the promise is resolved with a value.
+
+    catch: The catch method is used to handle promise rejections. It takes a callback function that will be executed when the promise is rejected.
+    
+
+*Mongikazi- Explaining syntax of the read method
+
+    Syntax ...fd: File descriptor returned by fs.open() method.
+
+    buffer: Stores the data fetched from the file.
+
+    offset: Offset in the buffer indicating where to start writing.
+
+    length: An integer that specifies the number of bytes to read.
+
+    position: An integer that specifies where to begin reading from in the file. If the position is null, data is read from the current file position.
+
+    callback: The callback function accepts the three arguments ie. (err, bytesRead, buffer).
+
+
+*Lithini- Explaining  Promises
+
+    A Node. js Promise is a placeholder for a value that will be available in the future, allowing us to handle the result of an asynchronous task once it has completed or encountered an error. Promises make writing asynchronous code easier. They're an improvement on the callback pattern and very popular in Node. js.
+
+
+Codi- Made the code & the Github
+
+
